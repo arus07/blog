@@ -1,2 +1,11 @@
-
+---
+layout: default
+---
+<h1>warrior</h1>
 <p>fuck world!</p>
+<p>My post list:</p>
+<ul>
+    {% for post in site.posts %}
+    <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
