@@ -1,0 +1,768 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Roboto Mono','Courier',monospace,-apple-system, BlinkMacSystemFont,"PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", STHeiTi;
+    background: url(../img/bg.jpg) #fff;
+    background-size: 240px 240px;
+    color: #333;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.preload * {
+    -webkit-transition: none!important;
+    -moz-transition: none!important;
+    -ms-transition: none!important;
+    -o-transition: none!important;
+}
+
+.header-home {
+    width: 100%;
+    float: left;
+    clear: both;
+    padding: 45px 0 50px 0;
+    background-image: url(../img/bg-isobar.png);
+    background-size: 812px 794px;
+}
+
+.wrap {
+    width: 88%;
+    padding: 0 6%;
+}
+
+.a-wrap {
+    overflow: hidden;
+}
+
+.cotw,.creative-bio .content-col,.bg-home,.bg-alt,.multiline-up .l1,.multiline-up .l2,.multiline-up .l3,.creative.art .multiline-right span.l1,.creative.art .multiline-right span.l2,.creative.art .cp-parent,.location,.loader,.creative.art .featured,.creative.art .button,.header-creative img,.creatives #filter-creatives,.creative-bio .aside-col .website-title,.creative-bio .aside-col p,.creative-bio .aside-col .social-title,.creative-bio .aside-col li:nth-child(1),.creative-bio .aside-col li:nth-child(2),.creative-bio .aside-col li:nth-child(3) {
+    opacity: 0;
+}
+
+
+.cotw {
+    text-indent: -9999px;
+}
+
+.cotw a {
+    display: block;
+    width: 89px;
+    height: 11px;
+    -webkit-mask-image: url("../img/cotw-mobile.svg");
+    mask-image: url("../img/cotw-mobile.svg");
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    background-color: #333;
+}
+
+.in-view .cotw {
+    -webkit-animation-delay: 0.3s;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: bottom-to-top;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: 0.3s;
+    -moz-animation-duration: 1s;
+    -moz-animation-name: bottom-to-top;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: 0.3s;
+    -o-animation-duration: 1s;
+    -o-animation-name: bottom-to-top;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: 0.3s;
+    animation-duration: 1s;
+    animation-name: bottom-to-top;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+}
+
+.header-home .home-h1-desktop {
+    display: none;
+}
+
+.multiline-up,.multiline-right,.multiline-left {
+    font-family: 'SofiaPro-Bold','Helvetica','Arial',sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 6em;
+    line-height: 60px;
+    text-transform: lowercase;
+}
+
+.multiline-up .l1,.multiline-up .l2,.multiline-up .l3,.multiline-right .l1,.multiline-right .l2,.multiline-right .l3,.multiline-left .l1,.multiline-left .l2,.multiline-left .l3 {
+    display: block;
+}
+
+.header-home h1 {
+    margin-top: 25px;
+}
+
+.header-home .multiline-up {
+    font-family: "PingFang SC",'Arial',sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 3em;
+    line-height: 40px;
+}
+
+.header-home .multiline-up .a-wrap {
+    display: block;
+}
+
+.header-home h1 a.art {
+    color: #B85C35;
+}
+
+.header-home h1 a.art:hover {
+    background-color: rgba(184,92,53,0.07);
+}
+
+.header-home h1 a.photo {
+    color: #62A5D7;
+}
+
+.header-home h1 a.photo:hover {
+    background-color: rgba(98,165,215,0.07);
+}
+
+.in-view .multiline-up .l1 {
+    -webkit-animation-delay: 0.5s;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: bottom-to-top;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: 0.5s;
+    -moz-animation-duration: 1s;
+    -moz-animation-name: bottom-to-top;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: 0.5s;
+    -o-animation-duration: 1s;
+    -o-animation-name: bottom-to-top;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: 0.5s;
+    animation-duration: 1s;
+    animation-name: bottom-to-top;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+}
+
+.in-view .multiline-up .l2 {
+    -webkit-animation-delay: 0.6s;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: bottom-to-top;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: 0.6s;
+    -moz-animation-duration: 1s;
+    -moz-animation-name: bottom-to-top;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: 0.6s;
+    -o-animation-duration: 1s;
+    -o-animation-name: bottom-to-top;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: 0.6s;
+    animation-duration: 1s;
+    animation-name: bottom-to-top;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+}
+
+.in-view .multiline-up .l3 {
+    -webkit-animation-delay: 0.7s;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: bottom-to-top;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: 0.7s;
+    -moz-animation-duration: 1s;
+    -moz-animation-name: bottom-to-top;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: 0.7s;
+    -o-animation-duration: 1s;
+    -o-animation-name: bottom-to-top;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: 0.7s;
+    animation-duration: 1s;
+    animation-name: bottom-to-top;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+}
+
+.button {
+    height: 46px;
+    display: inline-block;
+    border: 2px solid rgba(51,51,51,0.05);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 0 20px 0 0;
+    font-size: 1.4em;
+    line-height: 45px;
+    font-weight: 500;
+    color: #333;
+}
+
+.button.but-menu {
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.header-home .button {
+    margin-top: 20px;
+    opacity: 0;
+    display: inline-block;
+}
+
+.header-home .button.more-creatives {
+    display: none;
+}
+
+.in-view.header-home .button {
+    -webkit-animation-delay: 0.9s;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: bottom-to-top;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: 0.9s;
+    -moz-animation-duration: 1s;
+    -moz-animation-name: bottom-to-top;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: 0.9s;
+    -o-animation-duration: 1s;
+    -o-animation-name: bottom-to-top;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: 0.9s;
+    animation-duration: 1s;
+    animation-name: bottom-to-top;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+}
+
+.button::before {
+    content: "";
+    width: 56px;
+    height: 56px;
+    float: left;
+    -webkit-mask-image: url("../img/icon-arrow.svg");
+    mask-image: url("../img/icon-arrow.svg");
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    background-color: #333;
+    margin-top: -5px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.button:hover {
+    border-color: rgba(51,51,51,0.1);
+    text-indent: 10px;
+}
+
+.button.but-menu::before {
+    -webkit-mask-image: url("../img/icon-menu.svg");
+    mask-image: url("../img/icon-menu.svg");
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+}
+
+ul {
+    list-style: none;
+}
+
+.creative {
+    width: 100%;
+    float: left;
+    clear: both;
+}
+
+.creative div {
+    position: relative;
+}
+
+
+.creative .creative-profile .a-wrap {
+    overflow: visible;
+}
+
+.a-wrap {
+    overflow: hidden;
+}
+
+.creative h2 {
+    margin-bottom: -20px;
+    position: relative;
+    z-index: 200;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+
+.creative h2 a {
+    color: #333;
+}
+
+.in-view.creative.art .multiline-right span.l1 {
+    -webkit-animation-delay: 1s;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: left-to-right;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: 1s;
+    -moz-animation-duration: 1s;
+    -moz-animation-name: left-to-right;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: 1s;
+    -o-animation-duration: 1s;
+    -o-animation-name: left-to-right;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-name: left-to-right;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+}
+
+.cp-parent {
+    width: 110%;
+    display: block;
+    overflow: hidden;
+}
+
+.creative .creative-profile .cp-parent,.creative .creative-profile .gif-container {
+    height: 340px;
+    margin-left: -10%;
+}
+
+.in-view.creative.art .cp-parent {
+    -webkit-animation-delay: 0.8s;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: fade-in-up;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: 0.8s;
+    -moz-animation-duration: 1s;
+    -moz-animation-name: fade-in-up;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: 0.8s;
+    -o-animation-duration: 1s;
+    -o-animation-name: fade-in-up;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: 0.8s;
+    animation-duration: 1s;
+    animation-name: fade-in-up;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+}
+
+.cp-parent .cp-child {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    box-shadow: inset 0 0 0 0 #fff;
+}
+
+.creative p {
+    font-weight: normal;
+    font-size: 1.4em;
+    line-height: 28px;
+    position: relative;
+}
+
+.in-view .location,.in-view.creative.art .featured {
+    -webkit-animation-delay: 0.9s;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: bottom-to-top;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: 0.9s;
+    -moz-animation-duration: 1s;
+    -moz-animation-name: bottom-to-top;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: 0.9s;
+    -o-animation-duration: 1s;
+    -o-animation-name: bottom-to-top;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: 0.9s;
+    animation-duration: 1s;
+    animation-name: bottom-to-top;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+}
+
+.creative p.location {
+    display: none;
+}
+
+.button.art {
+    color: #B85C35;
+}
+
+.button.art::before {
+    background-color: #B85C35;
+}
+
+.creative .button {
+    margin: 15px 0 0 0;
+}
+
+.button.but-fill.art {
+    background-color: #B85C35;
+    border-color: #B85C35;
+}
+
+.button.but-fill.art:hover {
+    background-color: #a85430;
+    border-color: #a85430;
+}
+
+.creative .creative-profile .button {
+    position: relative;
+    margin: 30px 0 0 0;
+}
+
+.in-view.creative.art .button {
+    -webkit-animation-delay: 1.1s;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: bottom-to-top;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: 1.1s;
+    -moz-animation-duration: 1s;
+    -moz-animation-name: bottom-to-top;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: 1.1s;
+    -o-animation-duration: 1s;
+    -o-animation-name: bottom-to-top;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: 1.1s;
+    animation-duration: 1s;
+    animation-name: bottom-to-top;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+}
+
+.creative p.featured {
+    margin-top: 30px;
+}
+
+.creative.photo {
+    background-image: url(../img/bg-isobar.png);
+    background-size: 812px 794px;
+    margin: 80px 0 0 0;
+    padding-bottom: 80px;
+}
+
+.button.but-fill.photo {
+    background-color: #62A5D7;
+    border-color: #62A5D7;
+}
+
+.button.but-fill.photo:hover {
+    background-color: #529cd3;
+    border-color: #529cd3;
+}
+
+.button.photo {
+    color: #62A5D7;
+}
+
+.button.photo::before {
+    background-color: #62A5D7;
+}
+
+.button.but-fill {
+    color: #fff;
+}
+
+.button.but-fill::before {
+    background-color: #fff;
+}
+
+.multiline-up .l1 .pink{
+    text-transform: none;
+    color: #E64769;
+}
+
+/*#creative-menu {
+    display: none;
+}*/
+
+.filters {
+    display: inherit;
+    padding-top: 100px;
+    width: 300px;
+}
+
+.filters h4,.filters h5 {
+    font-family: 'SofiaPro-Bold','Helvetica','Arial',sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.filters ul {
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+.filters ul li {
+    font-weight: normal;
+    font-size: 1.4em;
+    line-height: 28px;
+    font-size: 14px;
+    line-height: 34px!important;
+    color: #ccc;
+}
+
+.filters ul li div {
+    color: #ccc;
+    cursor: pointer;
+    display: inline;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.filters ul li div.active,.filters ul li div:hover {
+    color: #333;
+}
+
+.filters ul li div.active {
+    font-weight: 500;
+    cursor: default;
+}
+
+.header-creative {
+    width: 100%;
+    float: left;
+    clear: both;
+    padding: 30px 0 0 0;
+}
+
+.header-creative .cotw {
+    display: none;
+}
+
+.header-creative .location a {
+    font-weight: 500;
+    display: inline-block;
+    position: relative;
+    color: #333;
+}
+
+.header-creative .location a:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    border-bottom: 1px solid #333;
+    transition: 0.5s ease;
+}
+
+.header-creative .location a:hover:after {
+    width: 100%;
+}
+
+#photo .header-creative .cotw a {
+    background-color: #62A5D7;
+}
+
+#photo .header-creative .location a {
+    color: #62A5D7;
+}
+
+#photo .header-creative .location a:after {
+    border-bottom-color: #62A5D7;
+}
+
+#photo .header-creative.all-creatives h1 {
+    color: #62A5D7;
+}
+
+.icon-scroll {
+    display: none;
+}
+
+#photo .icon-scroll {
+    border: 2px solid rgba(98,165,215,0.1);
+}
+
+#photo .icon-scroll:before {
+    background-color: #62a5d7;
+}
+
+.creative-bio {
+    width: 100%;
+    float: left;
+    clear: both;
+    padding: 30px 0 80px 0;
+}
+
+.in-view.creative-bio .content-col {
+    -webkit-animation-delay: 0.2s;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: menu-list;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+}
+
+.creative-bio .content-col p {
+    font-weight: normal;
+    font-size: 1.4em;
+    line-height: 28px;
+}
+
+.creative-bio .aside-col {
+    margin-top: 30px;
+}
+
+.creative-bio .aside-col h3 {
+    font-weight: normal;
+    font-size: 1.4em;
+    line-height: 28px;
+}
+
+.in-view.creative-bio .aside-col .website-title {
+    -webkit-animation-delay: 0.8s;
+    -webkit-animation-duration: 0.8s;
+    -webkit-animation-name: bottom-to-top;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: 0.8s;
+    -moz-animation-duration: 0.8s;
+    -moz-animation-name: bottom-to-top;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: 0.8s;
+    -o-animation-duration: 0.8s;
+    -o-animation-name: bottom-to-top;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: 0.8s;
+    animation-duration: 0.8s;
+    animation-name: bottom-to-top;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+}
+
+.creative-bio .aside-col p {
+    font-family: 'SofiaPro-Bold','Helvetica','Arial',sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 30px;
+    margin-bottom: 10px;
+    margin: 10px 0 30px 0!important;
+}
+
+.in-view.creative-bio .aside-col p {
+    -webkit-animation-delay: 0.9s;
+    -webkit-animation-duration: 0.8s;
+    -webkit-animation-name: bottom-to-top;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: 0.9s;
+    -moz-animation-duration: 0.8s;
+    -moz-animation-name: bottom-to-top;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: 0.9s;
+    -o-animation-duration: 0.8s;
+    -o-animation-name: bottom-to-top;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: 0.9s;
+    animation-duration: 0.8s;
+    animation-name: bottom-to-top;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+}
+
+.more {
+    width: 100%;
+    float: left;
+    clear: both;
+    margin: 30px 0 60px 0;
+}
+
+.more h3 {
+    font-weight: normal;
+    font-size: 1.4em;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+
+.more p {
+    font-family: 'SofiaPro-Bold','Helvetica','Arial',sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2.4em;
+    line-height: 34px;
+    margin-bottom: 0!important;
+}
+
+.more a{
+    display: inline-block;
+    position: relative;
+    font-weight: 500;
+    color: #333;
+}
+
+.more a:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    border-bottom: 1px solid #E64769;
+    transition: 0.5s ease;
+}
+
+.more a:hover{
+    color:#E64769;
+}
+
+.more a:hover:after{
+    width: 100%;
+}

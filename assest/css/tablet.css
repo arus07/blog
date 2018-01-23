@@ -1,0 +1,25 @@
+.cp-parent {
+    width: 100%;
+}
+
+.creative .creative-profile .cp-parent,.creative .creative-profile .gif-container {
+    height: 600px;
+    margin-left: 0;
+}
+
+#creative-menu .content-col ul li {
+    font-size:4em;
+    line-height: 80px;
+}
+
+.header-creative {
+    padding: 60px 0 0 0;
+}
+
+.creative-bio {
+    padding: 50px 0;
+}
+
+.more {
+    margin: 30px 0 70px 0;
+}

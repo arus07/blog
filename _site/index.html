@@ -3,17 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <title>ytr's blog</title>
+    <meta name="description" content="ytr's blog">
+    <meta name="keywords" content="ytr">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="/assest/css/base.css" media="screen" type="text/css">
+    <link rel="stylesheet" href="/assest/css/phone.css" media="screen" type="text/css">
+    <link rel="stylesheet" href="/assest/css/tablet.css" media="only screen and (min-width:700px)" type="text/css">
+    <link rel="stylesheet" href="/assest/css/smalldesktop.css" media="only screen and (min-width:1000px)" type="text/css">
+    <link rel="stylesheet" href="/assest/css/desktop.css" media="only screen and (min-width:1290px)" type="text/css">
 </head>
-<body>
+<body class="preload">
 
-<h1>warrior</h1>
-<p>fuck world!</p>
-<p>My post list:</p>
-<ul>
-    
-    <li><a href="/2017/12/21/ux.html">my first post</a></li>
-    
-</ul>
+<section class="header-home">
+    <div class="wrap">
+        <div class="a-wrap a-wrap-logo"><p class="cotw"><a href="/">ytr's site</a></p></div>
+        <div class="content-col">
+            <div class="a-wrap home-h1-desktop">
+<!--                <h1 class="multiline-up">
+                <span class="a-wrap"><span class="l1">基本上 </span></span>
+                <span class="a-wrap"><span class="l2">我只是一个浪漫主义的青年 </span></span>
+                <span class="a-wrap"><span class="l3">这是我的 <a href="/surf-art/" class="art">作品</a> &amp; <a href="/surf-photography/" class="photo">文章</a> </span></span>
+                </h1>-->
+                <h1 class="multiline-up">
+                    <span class="a-wrap"><span class="l1"><span class="pink">Hello.</span>我叫叶涛然.</span></span>
+                    <span class="a-wrap"><span class="l2">我是一名web设计师和前端开发</span></span>
+                    <span class="a-wrap"><span class="l3">工程师.</span></span>
+                </h1>
+            </div>
+            <div class="a-wrap"><div class="button but-menu more-creatives">View all articles</div></div>
+        </div>
+    </div>
+</section>
 
+<section class="creative art">
+    <div class="wrap">
+        <div class="creative-profile">
+            <div class="a-wrap">
+                <h2 class="multiline-right">
+                    <a href="#">
+                        <span class="a-wrap"><span class="l1">合金装备-雷电</span></span>
+                    </a>
+                </h2>
+            </div>
+            <div class="cp-parent">
+                <div class="cp-child" style="background-image: url('/assest/img/speedp3.png')"></div>
+            </div>
+            <div class="a-wrap"><p class="location">Painting</p></div>
+        </div>
+        <div class="content-col">
+            <div class="a-wrap"><p class="featured">还有更多绘画作品.</p></div>
+            <div class="a-wrap"><a href="#" class="button art">View all paintings</a></div>
+        </div>
+    </div>
+</section>
+
+<section class="creative photo">
+    <div class="wrap">
+        <div class="creative-profile">
+            <div class="a-wrap">
+                <h2 class="multiline-left">
+                    <a href="#">
+                        <span class="a-wrap"><span class="l1">泰国-海域</span></span>
+                    </a>
+                </h2>
+            </div>
+            <div class="cp-parent">
+                <div class="cp-child" style="background-image: url('/assest/img/sea.png')"></div>
+            </div>
+            <div class="a-wrap"><p class="location">photograph</p></div>
+        </div>
+        <div class="content-col">
+            <div class="a-wrap"><p class="featured">还有更多摄影作品.</p></div>
+            <div class="a-wrap"><a href="#" class="button photo">View all photographs</a></div>
+        </div>
+    </div>
+</section>
+
+<div id="creative-menu">
+    <div class="wrap a-wrap">
+        <div class="content-col">
+            <ul id="filter-creatives" style="position: relative; height: 1360px;">
+                
+                <li><a href="/2018/01/23/pm.html" class="photo">数据分析的基本方法论「Why-What-How」</a></li>
+                
+                <li><a href="/2017/12/21/ux.html" class="photo">微信的用户量那么大，跳一跳的盒子上为什么不加广告</a></li>
+                
+            </ul>
+        </div>
+        <div class="menu-close">Close menu</div>
+        <div class="menu-filters">
+            <div class="filters">
+                <h4>Filter by:</h4>
+                <ul>
+                    <li><div class="active">All</div></li>
+                    <li><div>交互设计</div></li>
+                    <li><div>平面设计</div></li>
+                    <li><div>前端开发</div></li>
+                    <li><div>行业观察</div></li>
+                    <li><div>产品设计</div></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="/assest/js/jquery.min.js"></script>
+<script src="/assest/js/main.js"></script>
 </body>
 </html>

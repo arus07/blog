@@ -1,11 +1,95 @@
 ---
 layout: default
 ---
-<h1>warrior</h1>
-<p>fuck world!</p>
-<p>My post list:</p>
-<ul>
-    {% for post in site.posts %}
-    <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-</ul>
+
+<section class="header-home">
+    <div class="wrap">
+        <div class="a-wrap a-wrap-logo"><p class="cotw"><a href="/">ytr's site</a></p></div>
+        <div class="content-col">
+            <div class="a-wrap home-h1-desktop">
+<!--                <h1 class="multiline-up">
+                <span class="a-wrap"><span class="l1">基本上 </span></span>
+                <span class="a-wrap"><span class="l2">我只是一个浪漫主义的青年 </span></span>
+                <span class="a-wrap"><span class="l3">这是我的 <a href="/surf-art/" class="art">作品</a> &amp; <a href="/surf-photography/" class="photo">文章</a> </span></span>
+                </h1>-->
+                <h1 class="multiline-up">
+                    <span class="a-wrap"><span class="l1"><span class="pink">Hello.</span>我叫叶涛然.</span></span>
+                    <span class="a-wrap"><span class="l2">我是一名web设计师和前端开发</span></span>
+                    <span class="a-wrap"><span class="l3">工程师.</span></span>
+                </h1>
+            </div>
+            <div class="a-wrap"><div class="button but-menu more-creatives">View all articles</div></div>
+        </div>
+    </div>
+</section>
+
+<section class="creative art">
+    <div class="wrap">
+        <div class="creative-profile">
+            <div class="a-wrap">
+                <h2 class="multiline-right">
+                    <a href="#">
+                        <span class="a-wrap"><span class="l1">合金装备-雷电</span></span>
+                    </a>
+                </h2>
+            </div>
+            <div class="cp-parent">
+                <div class="cp-child" style="background-image: url('{{ site.baseurl }}/assest/img/speedp3.png')"></div>
+            </div>
+            <div class="a-wrap"><p class="location">Painting</p></div>
+        </div>
+        <div class="content-col">
+            <div class="a-wrap"><p class="featured">还有更多绘画作品.</p></div>
+            <div class="a-wrap"><a href="#" class="button art">View all paintings</a></div>
+        </div>
+    </div>
+</section>
+
+<section class="creative photo">
+    <div class="wrap">
+        <div class="creative-profile">
+            <div class="a-wrap">
+                <h2 class="multiline-left">
+                    <a href="#">
+                        <span class="a-wrap"><span class="l1">泰国-海域</span></span>
+                    </a>
+                </h2>
+            </div>
+            <div class="cp-parent">
+                <div class="cp-child" style="background-image: url('{{ site.baseurl }}/assest/img/sea.png')"></div>
+            </div>
+            <div class="a-wrap"><p class="location">photograph</p></div>
+        </div>
+        <div class="content-col">
+            <div class="a-wrap"><p class="featured">还有更多摄影作品.</p></div>
+            <div class="a-wrap"><a href="#" class="button photo">View all photographs</a></div>
+        </div>
+    </div>
+</section>
+
+<div id="creative-menu">
+    <div class="wrap a-wrap">
+        <div class="content-col">
+            <ul id="filter-creatives" style="position: relative; height: 1360px;">
+                {% for post in site.posts %}
+                <li><a href="{{ site.baseurl }}{{ post.url }}" class="photo">{{ post.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="menu-close">Close menu</div>
+        <div class="menu-filters">
+            <div class="filters">
+                <h4>Filter by:</h4>
+                <ul>
+                    <li><div class="active">All</div></li>
+                    <li><div>交互设计</div></li>
+                    <li><div>平面设计</div></li>
+                    <li><div>前端开发</div></li>
+                    <li><div>行业观察</div></li>
+                    <li><div>产品设计</div></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,490 @@
+.header-home {
+    padding: 70px 0;
+}
+
+.a-wrap.a-wrap-logo {
+    float: left;
+}
+
+.cotw {
+    float: left;
+}
+
+.cotw a {
+    width: 16px;
+    height: 148px;
+    -webkit-mask-image: url("../img/YETR.svg");
+    mask-image: url("../img/YETR.svg");
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    margin: 25px 0 0 0;
+}
+
+.cotw a:hover {
+    margin-top: 10px;
+}
+
+.wrap {
+    width: 100%;
+    padding: 0;
+    max-width: 1100px!important;
+}
+
+.content-col {
+    width: 64%;
+    max-width: 700px;
+    float: right;
+}
+
+.header-home .content-col {
+    float: right;
+}
+
+.header-home h1 {
+    margin-top: 0;
+}
+
+.header-home .multiline-up {
+    font-size:2.8em;
+    line-height: 66px;
+}
+
+.button {
+    height: 56px;
+    padding: 0 40px 0 0;
+    font-size: 1em;
+    line-height: 55px;
+    cursor: pointer;
+}
+
+.header-home .button {
+    display: none;
+}
+
+.header-home .button.more-creatives {
+    display: inline-block;
+}
+
+.button::before {
+    margin-top: 0;
+}
+
+.multiline-up,.multiline-right,.multiline-left {
+    font-size:2em;
+    line-height: 90px;
+}
+
+.creative .creative-profile {
+    min-height: 650px;
+}
+
+.creative .creative-profile .a-wrap {
+    overflow: hidden;
+}
+
+.creative h2 {
+    margin-top: 110px;
+    max-width: 370px;
+    margin-bottom: 0;
+}
+
+.creative .creative-profile .cp-parent,.creative .creative-profile .gif-container {
+    width: 650px;
+    height: 650px;
+    margin-right: 50px;
+}
+
+.creative .button {
+    margin-top: 25px;
+}
+
+.creative .creative-profile .button {
+    margin-top: 40px;
+}
+
+.creative p.featured {
+    margin-top: 40px;
+}
+
+.creative.photo {
+    margin: 100px 0;
+}
+
+.creative.photo .creative-profile {
+    margin-right: 50px;
+}
+
+.cotw,.creatives .filters,.multiline-left span.l1,.multiline-left span.l2,.creative.film .multiline-right span.l1,.creative.film .multiline-right span.l2,.creative.photo .cp-parent,.creative.film .gif-container,.creative.photo .featured,.creative.film .featured,.creative.photo .button,.creative.film .button,.creative-portfolio .flex-col-1 img:nth-child(1),.creative-portfolio .flex-col-1 img:nth-child(2),.creative-portfolio .flex-col-1 img:nth-child(3),.creative-portfolio .flex-col-1 img:nth-child(4),.creative-portfolio .flex-col-1 img:nth-child(5),.creative-portfolio .flex-col-1 img:nth-child(6),.creative-portfolio .flex-col-1 img:nth-child(7),.creative-portfolio .flex-col-1 img:nth-child(8),.creative-portfolio .flex-col-1 img:nth-child(9),.creative-portfolio .flex-col-1 img:nth-child(10),.creative-portfolio .flex-col-2 img:nth-child(1),.creative-portfolio .flex-col-2 img:nth-child(2),.creative-portfolio .flex-col-2 img:nth-child(3),.creative-portfolio .flex-col-2 img:nth-child(4),.creative-portfolio .flex-col-2 img:nth-child(5),.creative-portfolio .flex-col-2 img:nth-child(6),.creative-portfolio .flex-col-2 img:nth-child(7),.creative-portfolio .flex-col-2 img:nth-child(8),.creative-portfolio .flex-col-2 img:nth-child(9),.creative-portfolio .flex-col-2 img:nth-child(10),#creative-menu .menu-filters,#filter-creatives {
+    opacity: 0;
+}
+
+.in-view .multiline-left span.l1 {
+    -webkit-animation-delay: 0.5s;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: right-to-left;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: 0.5s;
+    -moz-animation-duration: 1s;
+    -moz-animation-name: right-to-left;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: 0.5s;
+    -o-animation-duration: 1s;
+    -o-animation-name: right-to-left;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: 0.5s;
+    animation-duration: 1s;
+    animation-name: right-to-left;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+}
+
+.in-view .multiline-left span.l2 {
+    -webkit-animation-delay: 0.7s;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: right-to-left;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: 0.7s;
+    -moz-animation-duration: 1s;
+    -moz-animation-name: right-to-left;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: 0.7s;
+    -o-animation-duration: 1s;
+    -o-animation-name: right-to-left;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: 0.7s;
+    animation-duration: 1s;
+    animation-name: right-to-left;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+}
+
+.in-view.creative.photo .cp-parent,.in-view.creative.film .gif-container {
+    -webkit-animation-delay: 0.8s;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: fade-in-up;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: 0.8s;
+    -moz-animation-duration: 1s;
+    -moz-animation-name: fade-in-up;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: 0.8s;
+    -o-animation-duration: 1s;
+    -o-animation-name: fade-in-up;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: 0.8s;
+    animation-duration: 1s;
+    animation-name: fade-in-up;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+}
+
+.in-view.creative.photo .button,.in-view.creative.film .button {
+    -webkit-animation-delay: 0.9s;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: bottom-to-top;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: 0.9s;
+    -moz-animation-duration: 1s;
+    -moz-animation-name: bottom-to-top;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: 0.9s;
+    -o-animation-duration: 1s;
+    -o-animation-name: bottom-to-top;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: 0.9s;
+    animation-duration: 1s;
+    animation-name: bottom-to-top;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+}
+
+.creative .content-col {
+    max-width: inherit;
+}
+
+.in-view.creative.photo .featured,.in-view.creative.film .featured {
+    -webkit-animation-delay: 1.1s;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: bottom-to-top;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: 1.1s;
+    -moz-animation-duration: 1s;
+    -moz-animation-name: bottom-to-top;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: 1.1s;
+    -o-animation-duration: 1s;
+    -o-animation-name: bottom-to-top;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: 1.1s;
+    animation-duration: 1s;
+    animation-name: bottom-to-top;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+}
+
+#creative-menu {
+    display: inherit;
+    opacity: 0;
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    background: url(../img/bg.jpg) #fff;
+    background-size: 240px 240px;
+    overflow-y: scroll;
+}
+
+.menu-in-view#creative-menu {
+    -webkit-animation-delay: 0s;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-name: fade-in;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: 0s;
+    -moz-animation-duration: 0.5s;
+    -moz-animation-name: fade-in;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: 0s;
+    -o-animation-duration: 0.5s;
+    -o-animation-name: fade-in;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-duration: 0.5s;
+    animation-name: fade-in;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+}
+
+#creative-menu .content-col {
+    position: relative;
+    z-index: 9999;
+}
+
+.menu-close {
+    width: 56px;
+    height: 56px;
+    -webkit-mask-image: url("../img/icon-close.svg");
+    mask-image: url("../img/icon-close.svg");
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    background-color: #333;
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10000;
+    transition: all 0.4s ease;
+}
+
+.menu-close:hover {
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+}
+
+
+.menu-in-view .menu-filters {
+    -webkit-animation-delay: 0.4s;
+    -webkit-animation-duration: 0.8s;
+    -webkit-animation-name: menu-list;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: 0.4s;
+    -moz-animation-duration: 0.8s;
+    -moz-animation-name: menu-list;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: 0.4s;
+    -o-animation-duration: 0.8s;
+    -o-animation-name: menu-list;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: 0.4s;
+    animation-duration: 0.8s;
+    animation-name: menu-list;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+}
+
+#creative-menu .menu-filters {
+    position: fixed;
+    top: 0;
+    left: auto;
+    opacity: 100;
+}
+
+.filters h4,.filters h5 {
+    font-size:1.6em;
+    line-height: 34px;
+    margin-bottom: 15px;
+}
+
+.menu-in-view #filter-creatives {
+    -webkit-animation-delay: 0.1s;
+    -webkit-animation-duration: 0.8s;
+    -webkit-animation-name: menu-list;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: 0.1s;
+    -moz-animation-duration: 0.8s;
+    -moz-animation-name: menu-list;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: 0.1s;
+    -o-animation-duration: 0.8s;
+    -o-animation-name: menu-list;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: 0.1s;
+    animation-duration: 0.8s;
+    animation-name: menu-list;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+}
+
+#creative-menu .content-col ul {
+    list-style: none;
+    padding: 50px 0 70px 0;
+}
+
+#creative-menu .content-col ul li {
+    font-family: 'SofiaPro-Bold','Helvetica','Arial',sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.5em;
+    line-height: 46px;
+}
+
+#creative-menu .content-col ul li a {
+    cursor: pointer;
+}
+
+#creative-menu .content-col ul li a.art {
+    color: #B85C35;
+}
+
+#creative-menu .content-col ul li a.art:hover {
+    background-color: rgba(184,92,53,0.07);
+}
+
+#creative-menu .content-col ul li a:visited {
+    text-decoration: line-through;
+}
+
+#creative-menu .content-col ul li a.photo {
+    color: #62A5D7;
+}
+
+#creative-menu .content-col ul li a.photo:hover {
+    background-color: rgba(98,165,215,0.07);
+}
+
+#creative-menu .content-col ul li a.film {
+    color: #F5C870;
+}
+
+#creative-menu .content-col ul li a.film:hover {
+    background-color: rgba(245,200,112,0.07);
+}
+
+.header-creative {
+    padding: 70px 0 0 0;
+}
+
+.header-creative .cotw {
+    display: inherit;
+}
+
+.multiline-up.page-title{
+    font-size: 2.2em;
+    line-height: 50px;
+}
+
+.icon-scroll {
+    display: inherit;
+    width: 20px;
+    height: 34px;
+    border-radius: 14px;
+    margin-top: 4px;
+    position: relative;
+    float: right;
+}
+
+.icon-scroll:before {
+    content: "";
+    width: 4px;
+    height: 4px;
+    border-radius: 100%;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-name: mouse-scroll;
+    position: absolute;
+    left: 8px;
+    top: 8px;
+}
+
+.creative-bio {
+    padding: 70px 0;
+}
+
+.creative-bio a {
+    font-weight: 500;
+    color: #333;
+}
+
+.aside-col {
+    width: 36%;
+    max-width: 400px;
+    float: left;
+}
+
+.creative-bio .aside-col {
+    margin-top: 0;
+}
+
+.creative-bio .aside-col h3 {
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 28px;
+}
+
+.creative-bio .aside-col p {
+    font-size:1.5em;
+    line-height: 34px;
+    margin-bottom: 15px;
+    margin-top: 15px!important;
+}
+
+.location{
+    padding-bottom: 80px;
+}
+
+.more {
+    margin: 30px 0 100px 0;
+}
+
+.more h3 {
+    margin-bottom: 15px;
+}
