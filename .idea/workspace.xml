@@ -5,8 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/_posts/2018-01-23-pm.html" afterPath="$PROJECT_DIR$/_posts/2018-01-23-pm.html" />
       <change beforePath="$PROJECT_DIR$/_site/2018/01/23/pm.html" afterPath="$PROJECT_DIR$/_site/2018/01/23/pm.html" />
-      <change beforePath="$PROJECT_DIR$/_site/assest/css/desktop.css" afterPath="$PROJECT_DIR$/_site/assest/css/desktop.css" />
-      <change beforePath="$PROJECT_DIR$/assest/css/desktop.css" afterPath="$PROJECT_DIR$/assest/css/desktop.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -57,8 +55,8 @@
       <file leaf-file-name="2018-01-23-pm.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2018-01-23-pm.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="45" column="97" lean-forward="false" selection-start-line="45" selection-start-column="97" selection-end-line="45" selection-end-column="97" />
+            <state relative-caret-position="263">
+              <caret line="55" column="41" lean-forward="false" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -286,12 +284,12 @@
       <workItem from="1515479985238" duration="6139000" />
       <workItem from="1515720868655" duration="8186000" />
       <workItem from="1515977092656" duration="19597000" />
-      <workItem from="1516582236609" duration="12539000" />
+      <workItem from="1516582236609" duration="14124000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69708000" />
+    <option name="totallyTimeSpent" value="71293000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="21" y="44" width="1400" height="793" extended-state="0" />
@@ -722,8 +720,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-01-23-pm.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="45" column="97" lean-forward="false" selection-start-line="45" selection-start-column="97" selection-end-line="45" selection-end-column="97" />
+        <state relative-caret-position="263">
+          <caret line="55" column="41" lean-forward="false" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
           <folding />
         </state>
       </provider>
