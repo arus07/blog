@@ -19,6 +19,18 @@ a {
     transition: all 0.4s ease;
 }
 
+h1{
+    font-size: 1.1em;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+h3{
+    font-size: 1em;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 .preload * {
     -webkit-transition: none!important;
     -moz-transition: none!important;
@@ -764,5 +776,30 @@ ul {
 }
 
 .more a:hover:after{
+    width: 100%;
+}
+
+.creative-bio a {
+    font-weight: 500;
+    color: #333;
+    display: inline-block;
+    position: relative;
+}
+
+.creative-bio a:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    border-bottom: 1px solid #E64769;
+    transition: 0.5s ease;
+}
+
+.creative-bio a:hover{
+    color:#E64769;
+}
+
+.creative-bio a:hover:after{
     width: 100%;
 }
