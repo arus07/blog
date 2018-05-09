@@ -11,7 +11,11 @@ html,input {
 }
 
 .mt20{
-    margin-top: 20px;!important;
+    margin-top: 20px !important;
+}
+
+.no-margin{
+    margin-bottom: 0px !important;
 }
 
 
@@ -352,5 +356,16 @@ html,input {
     100% {
         opacity: 0;
         transform: translateY(12px);
+    }
+}
+
+@keyframes back-animate {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(-10px);
     }
 }

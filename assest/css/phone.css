@@ -171,6 +171,29 @@ h3{
     animation-timing-function: ease;
 }
 
+.more a.in-view {
+    -webkit-animation-delay: 0.5s;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: bottom-to-top;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: 0.5s;
+    -moz-animation-duration: 1s;
+    -moz-animation-name: bottom-to-top;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: 0.5s;
+    -o-animation-duration: 1s;
+    -o-animation-name: bottom-to-top;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: 0.5s;
+    animation-duration: 1s;
+    animation-name: bottom-to-top;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+}
+
 .in-view .multiline-up .l2 {
     -webkit-animation-delay: 0.6s;
     -webkit-animation-duration: 1s;
@@ -274,11 +297,11 @@ h3{
 
 .button::before {
     content: "";
-    width: 56px;
-    height: 56px;
+    width: 45px;
+    height: 26px;
     float: left;
-    -webkit-mask-image: url("../img/icon-arrow.svg");
-    mask-image: url("../img/icon-arrow.svg");
+    -webkit-mask-image: url("../img/eye.svg");
+    mask-image: url("../img/eye.svg");
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
     background-color: #333;
@@ -299,6 +322,10 @@ h3{
     mask-image: url("../img/icon-menu.svg");
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
+    margin-top: 0;
+    margin-left: 0;
+    width: 56px;
+    height: 56px;
 }
 
 ul {
@@ -441,11 +468,11 @@ ul {
 }
 
 .button.art {
-    color: #B85C35;
+    color: #ef6885;
 }
 
 .button.art::before {
-    background-color: #B85C35;
+    background-color: #ef6885;
 }
 
 .creative .button {
@@ -757,8 +784,10 @@ ul {
 .more a{
     display: inline-block;
     position: relative;
-    font-weight: 500;
-    color: #333;
+    letter-spacing: 2px;
+    color: #585858;
+    opacity: 0;
+    vertical-align: middle;
 }
 
 .more a:after {
@@ -802,4 +831,17 @@ ul {
 
 .creative-bio a:hover:after{
     width: 100%;
+}
+
+.back-svg{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.svg-arrow{
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-name: back-animate;
+    transform: translateX(10px);
 }

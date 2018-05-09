@@ -1,0 +1,53 @@
+---
+layout: artical
+title: 产品经理须知的“技术黑话”
+---
+
+<section class="header-creative">
+    <div class="wrap">
+        <p class="cotw"><a href="/">Club of the Waves</a></p>
+        <div class="content-col">
+            <div class="a-wrap">
+                <h1 class="multiline-up page-title">
+                    <span class="a-wrap"><span class="l1">{{page.title}}</span></span>
+                </h1>
+            </div>
+            <div class="a-wrap">
+                <div class="icon-scroll"></div>
+                <p class="location mt20"><a href="/surf-photography/">产品经理</a> — 技术</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="creative-bio">
+    <div class="wrap">
+        <div class="content-col">
+                <p>产品经理在实际工作中经常会遇到一些“技术黑话”，这些技术语言让非技术背景的产品经理们经常不知所云，带来了一些沟通和理解的问题，这里梳理了一些但不全的技术术语，以比较通俗的方式来解释和介绍，希望对于非技术背景的产品经理们有所帮助。</p>
+                <h3>1. 类、对象、抽象和实例</h3>
+                <p>在技术世界里，有一类编程语言叫面向对象编程，例如典型的面向对象语言java。说到面向对象，不得不提的是几个概念是类、对象、抽象和实例。首先介绍第一个概念"抽象"。我们说某一个概念抽象，对应的反义词是具象。例如，在现实世界中关于人的分类，会有男人、女人、老人、小孩,如果将这个具体的分类抽象出一个类别，得到的抽象结果就是人。所以，人就是一个抽象出来的分类，也就是技术术语的"类"。在程序世界中，可以基于抽象出来的模型（类）产生很多具体的实例，也就是基于类实例化的具体对象。例如，可将"人"这个类实例化为两个对象，分别是男人和女人，甚至可以实例化为具体的人，例如lucy和mike。
+                </p>
+                <h3>2. 架构和框架</h3>
+                <p>架构和框架是工程师经常提及的两个技术概念，另外，在技术职能中还有架构师这一岗位。通过一个例子可以非常直观地理解二者。在修建房屋时，会有一个总设计师负责设计整体蓝图和规划，这个工作可以理解为是架构师的工作。架构完成之后就进入具体的施工环节，施工时可以选择从头开始一砖一瓦的加，也可以使用现有的房屋框架，基于成熟的房屋框架一层一层累加，后期只需做整合和装修工作即可。</p>
+                <h3>3. 进程与线程</h3>
+                <p>当我们启动一个app时，系统会为这个app分配资源（例如cpu和存储空间），分配好资源后，app会在该资源区域进行运算。可以理解为每一个正在运行的app都是一个进程。相比于进程，线程是一个更小的执行单元。一个运行中的app是一个进程，一个进程中可以存在多个线程。下面以微博为例，运行中的微博是一个系统进程，上传照片及上传视频都是独立的线程。这两个线程可以同时运行互不影响，这种方式叫异步线程处理。当然，还有一种线程处理方式是同步处理，即各自任务需要按照一定的顺序完成。用户在发布完朋友圈之后可能立马去刷新朋友圈，技术实现时就会用两个线程去分别处理发布和获取新信息的子任务。这样可以保证用户体验。</p>
+        </div>
+        <div class="aside-col">
+            <div class="bio-first">
+                <h3 class="website-title">来源</h3>
+                <p><a href="#" target="_blank">读书笔记</a></p>
+            </div>
+        </div>
+    </div>              
+</section>
+
+
+<div class="more">
+    <div class="wrap">
+        <div class="content-col">
+            <h3>That's all.</h3>
+            <a href="{{ site.baseurl }}/index.html">返回首页</a>
+        </div>
+    </div>
+</div>
+

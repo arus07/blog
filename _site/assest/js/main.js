@@ -36,7 +36,7 @@ $(document).ready(function() {
 
 $(window).load(function() {
     $("body").removeClass("preload");
-    var $animation_elements = $('section, footer, .bg-home, .bg-alt, .creative-portfolio');
+    var $animation_elements = $('section, footer, .bg-home, .bg-alt, .creative-portfolio, .more a');
     var $window = $(window);
     function check_if_in_view() {
         var window_height = $window.height();
