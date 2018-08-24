@@ -11,10 +11,10 @@
 }
 
 .cotw a {
-    width: 16px;
-    height: 148px;
-    -webkit-mask-image: url("../img/YETR.svg");
-    mask-image: url("../img/YETR.svg");
+    width: 90px;
+    height: 60px;
+    -webkit-mask-image: url("../img/ytr4.svg");
+    mask-image: url("../img/ytr4.svg");
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
     margin: 25px 0 0 0;
@@ -45,9 +45,9 @@
 }
 
 .header-home .multiline-up {
-    font-size:2.8em;
-    line-height: 66px;
-    letter-spacing: 4px;
+    font-size:2.5em;
+    line-height: 63px;
+    letter-spacing: 2px;
 }
 
 .button {
@@ -72,7 +72,7 @@
 }
 
 .multiline-up,.multiline-right,.multiline-left {
-    font-size:2em;
+    font-size:3em;
     line-height: 80px;
 }
 
