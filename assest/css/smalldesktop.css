@@ -3,12 +3,8 @@
     margin: 0 auto;
 }
 
-.header-home .home-h1-desktop {
-    display: inherit;
-}
-
-.header-home .home-h1-mobile {
-    display: none;
+.header-home {
+    padding: 80px 0;
 }
 
 .creative .creative-profile .cp-parent,.creative .creative-profile .gif-container {
@@ -107,4 +103,8 @@
 .more p {
     font-size:3em;
     line-height: 44px;
+}
+
+.bg-home {
+    height: 700px;
 }

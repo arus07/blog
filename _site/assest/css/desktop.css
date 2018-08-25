@@ -71,6 +71,10 @@
     margin-left: 10px;
 }
 
+.bg-home {
+    height: 670px;
+}
+
 .multiline-up,.multiline-right,.multiline-left {
     font-size:3em;
     line-height: 80px;

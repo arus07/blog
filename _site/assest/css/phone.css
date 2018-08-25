@@ -60,6 +60,37 @@ h3{
     opacity: 0;
 }
 
+.bg-home {
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.in-view.bg-home {
+    -webkit-animation-delay: 0.1s;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: fade-in;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: 0.1s;
+    -moz-animation-duration: 1s;
+    -moz-animation-name: fade-in;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: 0.1s;
+    -o-animation-duration: 1s;
+    -o-animation-name: fade-in;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: 0.1s;
+    animation-duration: 1s;
+    animation-name: fade-in;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+}
+
 
 .cotw {
     text-indent: -9999px;
@@ -67,10 +98,10 @@ h3{
 
 .cotw a {
     display: block;
-    width: 89px;
-    height: 11px;
-    -webkit-mask-image: url("../img/cotw-mobile.svg");
-    mask-image: url("../img/cotw-mobile.svg");
+    width: 80px;
+    height: 30px;
+    -webkit-mask-image: url("../img/ytr4.svg");
+    mask-image: url("../img/ytr4.svg");
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
     background-color: #333;
