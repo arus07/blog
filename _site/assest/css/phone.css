@@ -138,7 +138,7 @@ h3{
     font-family: 'SofiaPro-Bold','Helvetica','Arial',sans-serif;
     font-weight: normal;
     font-style: normal;
-    font-size: 6em;
+    font-size: 2.6em;
     line-height: 60px;
     text-transform: lowercase;
 }
@@ -155,7 +155,7 @@ h3{
     font-family: "PingFang SC",'Arial',sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 3em;
+    font-size: 1.5em;
     line-height: 40px;
 }
 
@@ -280,7 +280,7 @@ h3{
     border-radius: 5px;
     background-color: #fff;
     padding: 0 20px 0 0;
-    font-size: 1.4em;
+    font-size: 0.98em;
     line-height: 45px;
     font-weight: 500;
     color: #333;
@@ -328,8 +328,8 @@ h3{
 
 .button::before {
     content: "";
-    width: 45px;
-    height: 26px;
+    width: 56px;
+    height: 56px;
     float: left;
     -webkit-mask-image: url("../img/eye.svg");
     mask-image: url("../img/eye.svg");
@@ -343,6 +343,15 @@ h3{
     transition: all 0.4s ease;
 }
 
+.button.eye::before {
+    width: 40px;
+    height: 46px;
+    -webkit-mask-image: url("../img/eye.svg");
+    mask-image: url("../img/eye.svg");
+    margin-top: 9px;
+    margin-left: 14px;
+}
+
 .button:hover {
     border-color: rgba(51,51,51,0.1);
     text-indent: 10px;
@@ -353,10 +362,6 @@ h3{
     mask-image: url("../img/icon-menu.svg");
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
-    margin-top: 0;
-    margin-left: 0;
-    width: 56px;
-    height: 56px;
 }
 
 ul {
@@ -428,6 +433,7 @@ ul {
 .creative .creative-profile .cp-parent,.creative .creative-profile .gif-container {
     height: 340px;
     margin-left: -10%;
+
 }
 
 .in-view.creative.art .cp-parent {
@@ -466,9 +472,13 @@ ul {
 
 .creative p {
     font-weight: normal;
-    font-size: 1.4em;
+    font-size: 0.9em;
     line-height: 28px;
     position: relative;
+}
+
+#creative-menu {
+    display: none;
 }
 
 .in-view .location,.in-view.creative.art .featured {

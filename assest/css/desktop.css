@@ -67,8 +67,11 @@
 }
 
 .button::before {
-    margin-top: 15px;
-    margin-left: 10px;
+    margin-top: 0px;
+}
+
+.button.eye::before {
+    margin-top: 14px;
 }
 
 .bg-home {
