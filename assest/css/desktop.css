@@ -53,8 +53,8 @@
 .button {
     height: 56px;
     padding: 0 40px 0 0;
-    font-size: 1em;
-    line-height: 55px;
+    font-size: 0.95em;
+    line-height: 56px;
     cursor: pointer;
 }
 
@@ -76,6 +76,20 @@
 
 .bg-home {
     height: 670px;
+}
+
+.contact-left{
+    width: 400px;
+}
+
+.contact-right{
+    width: 700px;
+}
+
+.contact-text2{
+    font-size: 4em;
+    letter-spacing: -2px;
+    line-height: 56px;
 }
 
 .multiline-up,.multiline-right,.multiline-left {
@@ -123,8 +137,77 @@
     margin-right: 50px;
 }
 
-.cotw,.creatives .filters,.multiline-left span.l1,.multiline-left span.l2,.creative.film .multiline-right span.l1,.creative.film .multiline-right span.l2,.creative.photo .cp-parent,.creative.film .gif-container,.creative.photo .featured,.creative.film .featured,.creative.photo .button,.creative.film .button,.creative-portfolio .flex-col-1 img:nth-child(1),.creative-portfolio .flex-col-1 img:nth-child(2),.creative-portfolio .flex-col-1 img:nth-child(3),.creative-portfolio .flex-col-1 img:nth-child(4),.creative-portfolio .flex-col-1 img:nth-child(5),.creative-portfolio .flex-col-1 img:nth-child(6),.creative-portfolio .flex-col-1 img:nth-child(7),.creative-portfolio .flex-col-1 img:nth-child(8),.creative-portfolio .flex-col-1 img:nth-child(9),.creative-portfolio .flex-col-1 img:nth-child(10),.creative-portfolio .flex-col-2 img:nth-child(1),.creative-portfolio .flex-col-2 img:nth-child(2),.creative-portfolio .flex-col-2 img:nth-child(3),.creative-portfolio .flex-col-2 img:nth-child(4),.creative-portfolio .flex-col-2 img:nth-child(5),.creative-portfolio .flex-col-2 img:nth-child(6),.creative-portfolio .flex-col-2 img:nth-child(7),.creative-portfolio .flex-col-2 img:nth-child(8),.creative-portfolio .flex-col-2 img:nth-child(9),.creative-portfolio .flex-col-2 img:nth-child(10),#creative-menu .menu-filters,#filter-creatives {
+.cotw,.creatives .filters,.multiline-left span.l1,.multiline-left span.l2,.creative.film .multiline-right span.l1,.creative.film .multiline-right span.l2,.creative.photo .cp-parent,.contact-text1,.contact-text2,.contact-form label,.contact-form .form-control,.button.submit,.creative.film .gif-container,.creative.photo .featured,.creative.film .featured,.creative.photo .button,.creative.film .button,.creative-portfolio .flex-col-1 img:nth-child(1),.creative-portfolio .flex-col-1 img:nth-child(2),.creative-portfolio .flex-col-1 img:nth-child(3),.creative-portfolio .flex-col-1 img:nth-child(4),.creative-portfolio .flex-col-1 img:nth-child(5),.creative-portfolio .flex-col-1 img:nth-child(6),.creative-portfolio .flex-col-1 img:nth-child(7),.creative-portfolio .flex-col-1 img:nth-child(8),.creative-portfolio .flex-col-1 img:nth-child(9),.creative-portfolio .flex-col-1 img:nth-child(10),.creative-portfolio .flex-col-2 img:nth-child(1),.creative-portfolio .flex-col-2 img:nth-child(2),.creative-portfolio .flex-col-2 img:nth-child(3),.creative-portfolio .flex-col-2 img:nth-child(4),.creative-portfolio .flex-col-2 img:nth-child(5),.creative-portfolio .flex-col-2 img:nth-child(6),.creative-portfolio .flex-col-2 img:nth-child(7),.creative-portfolio .flex-col-2 img:nth-child(8),.creative-portfolio .flex-col-2 img:nth-child(9),.creative-portfolio .flex-col-2 img:nth-child(10),#creative-menu .menu-filters,#filter-creatives {
     opacity: 0;
+}
+
+.in-view .contact-text1{
+    -webkit-animation-delay: 0.5s;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: right-to-left;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: 0.5s;
+    -moz-animation-duration: 1s;
+    -moz-animation-name: right-to-left;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: 0.5s;
+    -o-animation-duration: 1s;
+    -o-animation-name: right-to-left;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: 0.5s;
+    animation-duration: 1s;
+    animation-name: right-to-left;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+}
+
+.in-view .contact-text2{
+    -webkit-animation-delay: 0.9s;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: bottom-to-top;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: 0.9s;
+    -moz-animation-duration: 1s;
+    -moz-animation-name: bottom-to-top;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: 0.9s;
+    -o-animation-duration: 1s;
+    -o-animation-name: bottom-to-top;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: 0.9s;
+    animation-duration: 1s;
+    animation-name: bottom-to-top;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+}
+
+.in-view .contact-form label,.in-view .form-control,.in-view .submit{
+    -webkit-animation-delay: 0.9s;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: bottom-to-top;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-delay: 0.9s;
+    -moz-animation-duration: 1s;
+    -moz-animation-name: bottom-to-top;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: ease;
+    -o-animation-delay: 0.9s;
+    -o-animation-duration: 1s;
+    -o-animation-name: bottom-to-top;
+    -o-animation-fill-mode: both;
+    -o-animation-timing-function: ease;
+    animation-delay: 0.9s;
+    animation-duration: 1s;
+    animation-name: bottom-to-top;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
 }
 
 .in-view .multiline-left span.l1 {
