@@ -3,16 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4bdedebf-6d8f-4557-8ec2-848e13a7ef0f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/_site/assest/css/base.css" afterPath="$PROJECT_DIR$/_site/assest/css/base.css" />
-      <change beforePath="$PROJECT_DIR$/_site/assest/css/desktop.css" afterPath="$PROJECT_DIR$/_site/assest/css/desktop.css" />
       <change beforePath="$PROJECT_DIR$/_site/assest/css/phone.css" afterPath="$PROJECT_DIR$/_site/assest/css/phone.css" />
-      <change beforePath="$PROJECT_DIR$/_site/assest/css/smalldesktop.css" afterPath="$PROJECT_DIR$/_site/assest/css/smalldesktop.css" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change beforePath="$PROJECT_DIR$/assest/css/base.css" afterPath="$PROJECT_DIR$/assest/css/base.css" />
-      <change beforePath="$PROJECT_DIR$/assest/css/desktop.css" afterPath="$PROJECT_DIR$/assest/css/desktop.css" />
       <change beforePath="$PROJECT_DIR$/assest/css/phone.css" afterPath="$PROJECT_DIR$/assest/css/phone.css" />
-      <change beforePath="$PROJECT_DIR$/assest/css/smalldesktop.css" afterPath="$PROJECT_DIR$/assest/css/smalldesktop.css" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,7 +18,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="532">
@@ -86,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="phone.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="phone.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assest/css/phone.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
-              <caret line="545" column="39" lean-forward="false" selection-start-line="545" selection-start-column="39" selection-end-line="545" selection-end-column="39" />
+            <state relative-caret-position="204">
+              <caret line="328" column="7" lean-forward="false" selection-start-line="328" selection-start-column="1" selection-end-line="328" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -119,7 +111,7 @@
       <file leaf-file-name="base.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assest/css/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="239">
               <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
               <folding />
             </state>
@@ -139,7 +131,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>button</find>
       <find>right-to-left</find>
       <find>image</find>
       <find>left-to-right</find>
@@ -149,6 +140,7 @@
       <find>.bg-home</find>
       <find>.in-view.bg-home</find>
       <find>.in-view</find>
+      <find>button</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -175,10 +167,10 @@
         <option value="$PROJECT_DIR$/_posts/2018-05-09-01-work.html" />
         <option value="$PROJECT_DIR$/assest/css/tablet.css" />
         <option value="$PROJECT_DIR$/assest/css/base.css" />
-        <option value="$PROJECT_DIR$/assest/css/phone.css" />
         <option value="$PROJECT_DIR$/assest/css/smalldesktop.css" />
         <option value="$PROJECT_DIR$/assest/css/desktop.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assest/css/phone.css" />
       </list>
     </option>
   </component>
@@ -317,12 +309,12 @@
       <workItem from="1534765422623" duration="3308000" />
       <workItem from="1534986432902" duration="681000" />
       <workItem from="1535096348995" duration="6396000" />
-      <workItem from="1535247217197" duration="11507000" />
+      <workItem from="1535247217197" duration="13080000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120061000" />
+    <option name="totallyTimeSpent" value="121634000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="46" y="50" width="1400" height="793" extended-state="0" />
@@ -625,22 +617,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assest/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assest/css/phone.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="545" column="39" lean-forward="false" selection-start-line="545" selection-start-column="39" selection-end-line="545" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assest/css/smalldesktop.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -665,6 +641,22 @@
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#2;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assest/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assest/css/phone.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="328" column="7" lean-forward="false" selection-start-line="328" selection-start-column="1" selection-end-line="328" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>

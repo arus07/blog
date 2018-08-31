@@ -520,6 +520,14 @@ ul {
     line-height: 36px;
     padding:2px 8px;
     border-radius: 5px;
+    -webkit-transition: border-color ease-in-out .2s, -webkit-box-shadow ease-in-out .2s;
+    -o-transition: border-color ease-in-out .2s, box-shadow ease-in-out .2s;
+    transition: border-color ease-in-out .2s, box-shadow ease-in-out .2s;
+}
+
+.form-control:focus, .form-control:active {
+    border-color: rgba(51,51,51,0.1);
+    outline: none;
 }
 
 textarea.form-control{
